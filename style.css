@@ -1,0 +1,473 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  border-bottom: 3px solid brown;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: brown;
+  background: white;
+  font-size: 25px;
+}
+
+a:hover {
+  background: black;
+  color: white;
+}
+
+.nav-links li:hover {
+  background: black;
+  color: white;
+}
+
+header {
+  width: 96%;
+  margin: auto;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: brown;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  border: none;
+  background: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  min-height: 8vh;
+  flex: 2;
+  margin-bottom: 5px;
+}
+
+.logo {
+  color: brown;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+  flex: 1%;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+  list-style: none;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.column1 {
+  width: 50%;
+  padding: 10px;
+  height: 500px;
+  background: url(img/second.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.column2 {
+  width: 50%;
+  padding: 10px;
+  height: 500px;
+  background: url(img/nija1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.row-text {
+  position: absolute;
+  margin-top: 75px;
+  right: 25%;
+  left: 25%;
+  background: brown;
+  opacity: 0.9;
+  height: 350px;
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.row-text h2 {
+  letter-spacing: 0.2em;
+  padding-top: 140px;
+  padding-bottom: 25px;
+  font-size: 35px;
+}
+
+.mid {
+  text-align: center;
+  line-height: 1.5rem;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+  padding: 60px;
+}
+
+.mid h2 {
+  padding-bottom: 25px;
+}
+
+.container {
+  width: 90%;
+  height: 70vh;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-left {
+  display: flex;
+  width: 40%;
+
+  height: 400px;
+  background: url(/img/purple:yelow.jpg);
+  padding-left: 1rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box-midle {
+  display: flex;
+  width: 40%;
+  height: 400px;
+  background: url(/img/women:black.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.text-box {
+  position: absolute;
+  right: 5%;
+  background: brown;
+  opacity: 0.9;
+  height: 70vh;
+  padding-left: 45px;
+  padding-top: 200px;
+  width: 25%;
+}
+
+.text-box h2 {
+  color: white;
+}
+
+.text-box p {
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+span {
+  display: block;
+}
+
+.container {
+  width: 90%;
+  height: 70vh;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-left1 {
+  display: flex;
+  width: 50%;
+
+  height: 400px;
+  background: url(/img/first.jpg);
+  padding-left: 1rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box-midle1 {
+  display: flex;
+  width: 50%;
+  height: 400px;
+  background: url(/img/nija2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.buttom-tex {
+  text-align: center;
+  line-height: 1.5rem;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+  padding: 60px;
+}
+
+.buttom-tex h3 {
+  font-weight: 300;
+  font-size: 1.5em;
+  padding-bottom: 1em;
+}
+
+.ourwork {
+  text-align: center;
+  font-weight: 100;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  letter-spacing: 0.1em;
+}
+
+.ourwork h3 {
+  color: brown;
+}
+
+.card {
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 95%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+}
+
+.colum {
+  line-height: 2em;
+  font-size: 21px;
+}
+
+span {
+  display: block;
+}
+
+.container {
+  width: 90%;
+  height: 70vh;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-left2 {
+  display: flex;
+  width: 50%;
+
+  height: 400px;
+  background: url(/img/make-up-brush-set-1830447.jpg);
+  padding-left: 1rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box-midle2 {
+  display: flex;
+  width: 50%;
+  height: 400px;
+  background: url(/img/womanholding.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.price-sgn {
+  display: inline;
+}
+
+span {
+  display: block;
+}
+
+footer {
+  margin: auto;
+}
+
+.footer-distributed {
+  background-color: brown;
+  box-sizing: border-box;
+  width: 100%;
+  font-weight: bold;
+  margin-top: 80px;
+  display: inline-block;
+  padding: 50px;
+}
+
+.footer-distributed .footer-left {
+  width: 50%;
+  float: left;
+  margin-bottom: 80px;
+}
+
+.footer-distributed .footer-right {
+  width: 50%;
+  float: right;
+  margin-bottom: 80px;
+}
+
+.footer-distributed .footer-company-about {
+  line-height: 20px;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+}
+.footer-distributed .footer-icons {
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons i {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: brown;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+.footer-distributed .footer-company-about span {
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-left i {
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-left i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-left p {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer-buttom p {
+  color: white;
+}
+
+@media screen and (max-width: 880px) {
+  .card,
+  .colum,
+  .footer-left,
+  .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .row,
+  .box-left,
+  .box-midle {
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  nav {
+    display: grid;
+    place-items: center;
+  }
+
+  .logo h3 {
+    font-size: 16px;
+  }
+
+  .nav-links a {
+    font-size: 16px;
+    margin: 10px;
+  }
+
+  .row-text,
+  .row-text h2 {
+    letter-spacing: 0.2em;
+    padding-top: 140px;
+    padding-bottom: 25px;
+    font-size: 20px;
+    background: none;
+    color: brown;
+  }
+
+  .text-box {
+    display: none;
+  }
+}
+@media screen and (max-width: 1222px) {
+  .footer-left,
+  .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .row,
+  .box-left,
+  .box-midle {
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  nav {
+    display: grid;
+    place-items: center;
+  }
+
+  .logo h3 {
+    font-size: 16px;
+  }
+
+  .nav-links a {
+    font-size: 16px;
+    margin: 10px;
+  }
+
+  .row-text,
+  .row-text h2 {
+    letter-spacing: 0.2em;
+    padding-top: 140px;
+    padding-bottom: 25px;
+    font-size: 20px;
+    background: none;
+    color: brown;
+  }
+
+  .text-box {
+    display: none;
+  }
+}
